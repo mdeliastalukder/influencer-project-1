@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.medel{
+    display: flex;
+    margin-top: 5%;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-image: linear-gradient(orange, deeppink);
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.pasha{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*--------------------- 
+  collection styles
+------------------ */
+.collection{
+    margin-top: 8%;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+}
+.section-title{
+    text-align: center;
+}
+.collect .collect-banner img{
+    width: 300px;
+    height: 256px;
+}
+.collect-info{
+    display: flex;
+}
+.fa-star{
+    font-size: 16px;
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.fa-star.empty{
+    color: rgb(206, 205, 205);
+}
+.alines{
+    text-align: right;
+}
+.size{
+    width: 50%;
+}
+.lest-blog{
+    display: flex;
+    margin-top: 10%;
+    padding: 10px 40px;
+}
+.display{
+    text-align: center;
+    margin-top: 14%;
+    color: white;
+    background-color: rgb(1, 1, 29);
+    padding: 10px 40px;
+}
