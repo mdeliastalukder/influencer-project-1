@@ -71,3 +71,20 @@ body{
     background-color: rgb(1, 1, 29);
     padding: 10px 40px;
 }
+
+/*-------------------- 
+   Media Queries 
+----------------------*/
+
+/* Mobile Devices */
+@media only screen and (max-width:668px) {
+    .collections{
+        width: 100%;
+    }
+    .collections,.pasha{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .pasha,.collections{
+        flex-direction: column;
+    }
+}
